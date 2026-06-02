@@ -2,7 +2,7 @@ function cacCapChiaHetCho17(){
     let pairs = [];
 
     for (let i = 1; i <= 100; i++) {
-        for (let j = i + 1; j <= 100; j++) {
+        for (let j = i; j <= 100; j++) {
             if ((i + j) % 17 === 0) {
                 pairs.push([i, j]);
             }
